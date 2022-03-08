@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariachii | pedidos</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">volver al inicio :)</a>
+    </header>
+    <div>
+        <h2>Aqui elabora tu pedido, estamos a tus ordenes!</h2>
+    </div>
+    <div>
+        <form action="pedido.js">
+            <label for="nombre">Cual es tu nombre?</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Pedro Lopez">
+
+            <br><br>
+
+            <label for="number">cual es tu numero de telefono?</label><br>
+            <input type="number" id="number" name="number" placeholder="2281777777">
+
+            <br><br>
+
+            <label for="mail">cual es tu correo de contacto</label><br>
+            <input type="email" id="number" name="number" placeholder="coloca tu numero" maxlength="10">
+
+            <br>
+
+            <p>Elige tu sabor favorito</p>
+            <input type="radio" id="flavor1" name="flavor" value="vainilla">
+            <label for="flavo1r">Sabor vainilla</label><br>
+            <input type="radio" id="flavor2" name="flavor" value="chocolate">
+            <label for="falvor2">Sabor chocolate</label><br>
+            <input type="radio" id="flavor3" name="flavor" value="napolitano">
+            <label for="falvor3">Sabor napolitano</label><br>
+
+            <br>
+           
+            <p>Elige tus adornos! </p>
+            <input type="checkbox" id="adorno1" name="adorno1" value="Frutas (fresa, manzana, platano o alguna fruta de temporada)">
+            <label for="flavor1">Frutas</label><br>
+            <input type="checkbox" id="adorno2" name="adorno2" value="chocolate derretido o chispas de chocolate">
+            <label for="falvor2">chocolate derretido o chispas de chocolate</label><br>
+            <input type="checkbox" id="adorno3" name="adorno3" value="nueces">
+            <label for="falvor3">nueces</label><br>
+            <input type="checkbox" id="adorno4" name="adorno4" value="EleccionCliente">
+            <label for="falvor3">Otro (especificar abajo)</label><br>
+
+            <br><br>
+
+            <p>Abajo coloca lo mas especifico que puedas, el como quieres tu pastel</p>
+            <textarea name="especificaciones" id="especificaciones" cols="30" rows="5"></textarea>
+
+
+            <br><br>
+            
+           <a href="index.html" onclick="alert('Genial! Tu pedido ha sido creado con exito, en breve te contactaremos :)')">Ordena ahora</a>
+    </div>
+</body>
+<hr>
+<footer>
+    Contactanos: <br> mariachiipasteleria@correo.mx | 2281777777 <br> puedes encontrarnos en un horario de 8am a 8pm. <br>Sera un placer antenderte! :) 
+</footer>
+</html>
